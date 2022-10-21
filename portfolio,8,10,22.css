@@ -1,0 +1,42 @@
+body{
+  background: #f5f5dc;
+
+}
+.container{
+  margin: 0 auto;
+  color: #000;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h1{
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #800000;
+}
+.parttwo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+
+}
+.front-end{
+  margin-bottom: 1%;
+}
+a{
+  text-decoration: none;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 20px;
+  background: #ccfff5;
+  margin-bottom: 1%;
+}
+.secoundSection{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+}
+.websites{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+}
